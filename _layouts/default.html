@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Home</title>
+    <title>{{ page.title }}</title>
   </head>
 
   <body>
@@ -10,19 +10,9 @@
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
     </nav>
-    <h1>Home</h1>
+    <h1>{{ page.title }}</h1>
     <section>
-      <p>2020-06-10 12:19:13 +0200 - Serving index.md Written by Stephan</p>
-
-<h1 id="chapter-1">Chapter 1</h1>
-
-<p>guten morgen</p>
-
-<h1 id="chapter-2">Chapter 2</h1>
-
-<p>guten abend</p>
-
-
+      {{ content }}
     </section>
     <footer>
       &copy; to me
