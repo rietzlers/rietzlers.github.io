@@ -1,6 +1,6 @@
 # Chapter 1
 
-guten morgen
+ola
 
 # Chapter 2
 
